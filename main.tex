@@ -87,18 +87,18 @@ Book chapter is still with editors of \textit{Digital Heritage \& Archaeology in
 
 
 %what you see as being the big data challenges, opportunities and possibilities for your particular field (or a particular research question) as it relates to exploring the past?
-\section{Philosophy of Science}
+\section{Some Philosophy}
 
 \begin{frame}{Philosophies of Data}
 
-From \cite{Ballsun-Stanton2010-cn}, I've found three philosophies of data:
+I've found three philosophies of data so far \cite{Ballsun-Stanton2010-cn}:
 
 \begin{itemize}[label=\textbullet]
 \item Data as communications, a container for meaning; 
 \item Data as subjective observations, sense-impressions filtered by knowledge; and 
 \item Data as objective facts, measurements revealing the
 relationships of reality.
-\end{itemize}
+\end{itemize} 
 
 I'm \textit{really} not sure which ``Data" we are using today.
 \end{frame}
@@ -106,49 +106,103 @@ I'm \textit{really} not sure which ``Data" we are using today.
 \begin{frame}{Five Fancy Terms}
 
 \textbf{Prediction and Postdiction:}
+\begin{itemize}[label=\textbullet]
+\item Prediction describes a deductive, hypothesis-testing approach;
+\item Postdiction describes an inductive, hypothesis-generating approach.
+\end{itemize}
 
-Prediction describes a deductive, hypothesis-testing approach;
-
-Postdiction describes an inductive, hypothesis-generating approach.
-
-If postdiction is conflated with prediction, it is prone to “fallibility of memory, motivated reasoning, and cognitive biases” \cite{Nosek2018-yv}.
+If postdiction is conflated with prediction, it is prone to “fallibility of memory, motivated reasoning, and cognitive biases” \cite{Nosek2018-ym}.
 
 \textbf{Deductive, Inductive, Abductive:}
+\begin{itemize}[label=\textbullet]
+\item Top-down (generalising \textit{from} patterns), 
+\item Bottom-up (generalising \textit{to} patterns), and 
+\item Rapid hysteresis between the two. 
+\end{itemize}
 
-Top-down (generalising \textit{from} patterns), Bottom-up (generalising \textit{to} patterns), and a rapid hysteresis between the two. 
+\end{frame}
 
-Data's affordances change dramatically 
+\begin{frame}{The Affordances of Data}
 
+``Affordance is a property or feature of an object which presents a prompt on what can be done with this object" \cite{Tubik_Studio2018-ky}.
+
+Philosophies of research inform our data's affordances and \textit{what we think we can do with other folks' data.} 
+
+Marwick's Computational Archaeology \cite{Marwick2017-bb} could be a completely foreign land to someone used to a single (if long) report from paper-based single context recording. 
 
 \end{frame}
 
 \begin{frame}{Very little archaeology is Big Data}
 
+If the data for analysis fits on your laptop, it's not big data.
 
+We seldom can ``run a script" and get tables, graphs, and rasters generated automatically.
+
+We even more seldom have that script ready before we get to the field.
 \end{frame}
 
 
-\section{Open Questions}
+\section{What could 'Analysis before the Spade' mean?}
 
-
-\begin{frame}{Some Open and Pragmatic Questions}
-\begin{columns}
-\column{0.5\textwidth}
+\begin{frame}{Some Open Questions}
+% \begin{columns}
+% \column{0.5\textwidth}
 
 Questions arising from field deployments of data systems to over 50 teams:
 
 \begin{itemize}[label=\textbullet]
     \item How do we account for Archaeologists' time preferences?
     \item First mover disadvantage: how do we create network effects which make it desirable to use other peoples' data while in the field?
+    \item What does the reproducibility crisis mean for Archaeology?
 \end{itemize}
 
+% \column{0.5\textwidth}
+
+
+% \end{columns}
+\end{frame}
+
+
+\section{Some possible ``easy'' wins}
+
+
+
+\begin{frame}{Inspiration from my current research}
+\begin{columns}
 \column{0.5\textwidth}
+A program I've written has been continuously downloading social media data from October 24th. Before that program started its run:
+
+\begin{itemize}[label=\textbullet]
+\item I knew the ending data structures
+\item I knew our desired outputs
+\item I had scripts written which could generate frequency tables, wordclouds, and plots.
+\end{itemize}
+\column{0.5\textwidth}
+
+\begin{figure}
+    % \centering
+    \includegraphics[height=.7\textheight]{figures/blur.png}
+    \caption{Lexical Dispersion plot by Brian Ballsun-Stanton. Blurred due to sensitive topics.}
+    \label{fig:blur}
+\end{figure}
 
 
 \end{columns}
 \end{frame}
 
 
+\begin{frame}{Objectives for the field}
+
+In order to take advantage of any data at all in the field, Archaeology needs to write much of its analytic pipelines: ``Before the spade touches the ground."
+
+\begin{itemize}[label=\textbullet]
+\item Mandated reports are formulaic: generate the report is a press of a button.
+\item What reports do you wish you had nightly as a field director?
+\item How can a failure to replicate create useful controversy?
+\item How can your upcoming HDR students use your data in new ways? See: \cite{Spring2018-kr}.
+\end{itemize}
+
+\end{frame}
 % \begin{frame}{Japanese Advertising Research}
 % \begin{columns}
 % \column{0.5\textwidth}
@@ -157,7 +211,6 @@ Questions arising from field deployments of data systems to over 50 teams:
 % \end{frame}
 
 
-\section{Rules of Thumb}
 
 % \section{Recent Research}
 % \begin{frame}{Japanese Advertising Research}
@@ -311,7 +364,7 @@ Questions arising from field deployments of data systems to over 50 teams:
 % This presentation is available at:
 % \texttt{https://osf.io/...}
 
-Source code for this presentation is available at: \url{https://github.com/MQ-FOAR705/MQ-FOAR705-Week3}
+Source code for this presentation is available at: \url{https://github.com/Denubis/CACHE-Presentation-Analysis-Before-the-Spade}
 
 This work is licensed under a Creative Commons Attribution 4.0 International License.
 
